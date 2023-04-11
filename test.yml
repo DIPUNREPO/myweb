@@ -1,0 +1,6 @@
+---
+- name: testing 
+  hosts: appserver
+  tasks:
+    - name: checking
+      command: uptime
